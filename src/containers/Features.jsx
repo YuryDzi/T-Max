@@ -25,17 +25,17 @@ const featuresData = [
 ];
 
 const Features = () => (
-    <div className="gpt3__features section__padding" id="features">
-      <div className="gpt3__features-heading">
-        <h1 className="gradient__text">Services built for you!</h1>
-        <p>Transparent pricing. No surprise bills. Services tailored for your business.</p>
-      </div>
+    // <div className="gpt3__features section__padding" id="features">
+    //   <div className="gpt3__features-heading">
+    //     <h1 className="gradient__text">Services built for you!</h1>
+    //     <p>Transparent pricing. No surprise bills. Services tailored for your business.</p>
+    //   </div>
   <div>
     {featuresData.map((item, index) => (
       <Feature title={item.title} text={item.text} img={item.img} key={item.title + index} />
     ))}
   </div>
-    </div>
+    // </div>
 );
 
 export default Features;

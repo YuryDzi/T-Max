@@ -5,6 +5,7 @@ import '../css/mainPage.scss';
 /* eslint-disable */ 
 function MainPage() {
   return (
+    <>
     <div className="landing-page">
       <div className="info">
         <h1>Looking For Inspiration</h1>
@@ -17,8 +18,9 @@ function MainPage() {
       <div className="image">
         <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
       </div>
-      <Features />
     </div>
+    <Features />
+    </>
   );
 }
 
