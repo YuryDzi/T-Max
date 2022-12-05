@@ -1,4 +1,5 @@
 import React from 'react';
+import Features from '../containers/Features';
 import '../css/mainPage.scss';
 
 /* eslint-disable */ 
@@ -16,7 +17,7 @@ function MainPage() {
       <div className="image">
         <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
       </div>
-      <div className="clearfix"></div>
+      <Features />
     </div>
   );
 }
