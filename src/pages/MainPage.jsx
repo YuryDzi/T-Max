@@ -1,4 +1,5 @@
 import React from 'react';
+import Bages from '../components/Bages';
 import Features from '../containers/Features';
 import '../css/mainPage.scss';
 
@@ -19,6 +20,8 @@ function MainPage() {
         <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
       </div>
     </div>
+    <Bages />
+
     <Features />
     </>
   );
