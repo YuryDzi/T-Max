@@ -3,12 +3,10 @@ import '../css/feature.scss';
 /* eslint-disable */
 const Feature = ({ title, text, img }) => (
     /* eslint-disable */
-    <div className="landing-page">
+    <div className="landing-page-bot">
       <div className="info">
       <div />
       <h1>{title}</h1>
-    </div>
-    <div className="info">
       <p>{text}</p>
     </div>
     <div className="image">

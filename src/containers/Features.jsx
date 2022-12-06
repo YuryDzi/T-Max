@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import Feature from "../components/Feature";
+import FeatureLeft from "../components/FeatureLeft";
 import builder from "../assets/builder.svg";
 // import "../css/features.scss";
 
@@ -10,17 +11,13 @@ const featuresData = [
     text: "Your committed in-house counsel, there to dissect problems, deliver practical advice and manage legal operations.",
     img: builder,
   },
+];
+
+const featuresDataLeft = [
   {
-    title: "Launch Your Business",
-    text: "Customized company formation, essential agreements and equity issuances to set your business up for success.",
-  },
-  {
-    title: "Raise Money",
-    text: "Negotiate, handle and advise on your fundraising efforts via venture capital, SAFEs, debt and other financing transactions.",
-  },
-  {
-    title: "Build Your Brand",
-    text: "Negotiate with brands and sponsors so you can focus on making awesome content. Protect your brand with trademark counseling and filings.",
+    title: "Your On-Demand General Counsel",
+    text: "Your committed in-house counsel, there to dissect problems, deliver practical advice and manage legal operations.",
+    img: builder,
   },
 ];
 
@@ -34,8 +31,12 @@ const Features = () => (
     {featuresData.map((item, index) => (
       <Feature title={item.title} text={item.text} img={item.img} key={item.title + index} />
     ))}
+    <div>
+        {featuresDataLeft.map((item, index) => (
+      <FeatureLeft title={item.title} text={item.text} img={item.img} key={item.title + index} />
+    ))}
   </div>
-    // </div>
+   </div>
 );
 
 export default Features;
