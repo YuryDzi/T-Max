@@ -1,10 +1,9 @@
-
-
-
-
-
 /* Start Landing Page */
 
+
+.feature-box {
+    display:inline-block;
+}
 
 .landing-page-bot-left {
     padding: 80px;
@@ -13,78 +12,28 @@
     background-color: #FFF;
 }
 
-.landing-page-bot-left .header-area {
-    display: flex;
-    padding: 25px 0 0;
-    position: relative;
-}
-
-.landing-page-bot-left .info-left .img {
-    text-transform: uppercase;
-    font-style: italic;
-    margin-top: 10px;
-    font-size: 19px;
-    width: 300px;
-    color: #5d5d5d;
-}
-
-.landing-page-bot-left .header-area .links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: right;
-}
-
-.landing-page-bot-left .header-area .links li {
-    display: inline-block;
-    margin-left: 30px;
-    color: #5d5d5d;
-    cursor: pointer;
-}
-
-.landing-page-bot-left .header-area .links li:last-child {
-    border: 0;
-    border-radius: 20px;
-    padding: 10px 18px;
-    color: #FFF;
-    background-color: #6c63ff;
-}
-
 .landing-page-bot-left .info-left {
-    width: 35%;
+    width: 55%;
     float: right; // this
-    margin-top: 130px;
 }
 
-.landing-page-bot-left .info-left h1 {
-    font-size: 44px;
-    margin: 0 0 20px;
+.landing-page-bot-left  .info-left h1 {
+    font-size: 34px;
     line-height: 1.4;
-    color: #5d5d5d;
-    float: right;
+    // color: #5d5d5d;
+    // float: right;
 }
 
-.landing-page-bot-left .info-left p {
-    margin-right: 250px;
+.landing-page-bot-left  .info-left p {
+    // margin-right: 250px;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 17px;
     color: #5d5d5d;
     float: right;
-}
-
-.landing-page-bot-left .info-left button {
-    border: 0;
-    border-radius: 20px;
-    padding: 12px 30px;
-    margin-top: 30px;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #6c63ff;
 }
 
 .landing-page-bot-left .image {
-    width: 35%;
+    width: 30%;
     float: left; //this
     // margin-top: 35px;
 }
