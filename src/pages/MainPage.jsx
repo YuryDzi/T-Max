@@ -1,6 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import Bages from '../components/Bages';
 import Features from '../containers/Features';
+import Footer from '../containers/Footer';
+import Services from '../containers/Services';
 import '../css/mainPage.scss';
 
 /* eslint-disable */ 
@@ -23,6 +26,8 @@ function MainPage() {
     <Bages />
 
     <Features />
+    <Services />
+    {/* <Footer /> */}
     </>
   );
 }

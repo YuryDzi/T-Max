@@ -3,12 +3,11 @@
 /* Start Landing Page */
 
 
-.landing-page {
-    padding: 20px;
-    margin: 20px;
-    position: relative;
-    background-color: #FFF;
-}
+    .landing-page {
+        padding: 20px;
+        margin: 20px;
+        background-color: #FFF;
+    }
 
 .landing-page .header-area {
     display: flex;
@@ -18,12 +17,13 @@
 
 .landing-page .header-area .logo {
     text-transform: uppercase;
-    font-style: italic;
     margin-top: 10px;
     font-size: 19px;
     width: 300px;
     color: #5d5d5d;
+    font-style: italic;
 }
+
 
 .landing-page .header-area .links {
     list-style: none;
